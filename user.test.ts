@@ -6,3 +6,5 @@ describe('User', () => {
         expect(user.name).toEqual('Jan');
     });
 });
+
+//npx jest --verbose --testPathPattern=user.test.ts
